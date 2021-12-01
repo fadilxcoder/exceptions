@@ -5,6 +5,7 @@
 - https://gist.github.com/feyyazesat/c65ccfde12839c03c610 (Symfony Exception List)
 - https://www.strangebuzz.com/en/blog/the-php-exceptions-cheatsheet (The PHP exceptions' cheat sheet )
 - https://docs.w3cub.com/symfony~4.1/symfony/component/security/core/exception/accessdeniedexception (Exception details)
+- http://man.hubwiz.com/docset/Symfony.docset/Contents/Resources/Documents/packagist_docset/index.html (Symfony classes namespaces)
 
 ## Notes
 
@@ -166,29 +167,36 @@
 - **HttpException**
 - **AccessDeniedHttpException**
 
-List :
+---
 
+- http://man.hubwiz.com/docset/Symfony.docset/Contents/Resources/Documents/packagist_docset/Symfony/Component/OptionsResolver/Exception.html
 ```
 Symfony/Component/OptionsResolver/Exception/MissingOptionsException.php
 Symfony/Component/OptionsResolver/Exception/OptionDefinitionException.php
 Symfony/Component/OptionsResolver/Exception/InvalidOptionsException.php
----------------------------------------------------------------------------------------------
+```
 
+- http://man.hubwiz.com/docset/Symfony.docset/Contents/Resources/Documents/packagist_docset/Symfony/Component/Serializer/Exception.html
+```
 Symfony/Component/Serializer/Exception/InvalidArgumentException.php
 Symfony/Component/Serializer/Exception/UnsupportedException.php
 Symfony/Component/Serializer/Exception/UnexpectedValueException.php
 Symfony/Component/Serializer/Exception/LogicException.php
 Symfony/Component/Serializer/Exception/Exception.php
 Symfony/Component/Serializer/Exception/RuntimeException.php
----------------------------------------------------------------------------------------------
+```
 
+- http://man.hubwiz.com/docset/Symfony.docset/Contents/Resources/Documents/packagist_docset/Symfony/Component/HttpKernel/Exception.html
+```
 Symfony/Component/HttpKernel/Exception/MethodNotAllowedHttpException.php
 Symfony/Component/HttpKernel/Exception/NotFoundHttpException.php
 Symfony/Component/HttpKernel/Exception/HttpException.php
 Symfony/Component/HttpKernel/Exception/AccessDeniedHttpException.php
 Symfony/Component/HttpKernel/Exception/FlattenException.php
----------------------------------------------------------------------------------------------
+```
 
+- http://man.hubwiz.com/docset/Symfony.docset/Contents/Resources/Documents/packagist_docset/Symfony/Component/Form/Exception.html
+```
 Symfony/Component/Form/Exception/InvalidConfigurationException.php
 Symfony/Component/Form/Exception/TransformationFailedException.php
 Symfony/Component/Form/Exception/PropertyAccessDeniedException.php
@@ -204,26 +212,36 @@ Symfony/Component/Form/Exception/TypeDefinitionException.php
 Symfony/Component/Form/Exception/UnexpectedTypeException.php
 Symfony/Component/Form/Exception/ErrorMappingException.php
 Symfony/Component/Form/Exception/InvalidPropertyException.php
----------------------------------------------------------------------------------------------
+```
 
+- http://man.hubwiz.com/docset/Symfony.docset/Contents/Resources/Documents/packagist_docset/Symfony/Component/Process/Exception.html
+```
 Symfony/Component/Process/Exception/ProcessFailedException.php
 Symfony/Component/Process/Exception/RuntimeException.php
----------------------------------------------------------------------------------------------
+```
 
+- http://man.hubwiz.com/docset/Symfony.docset/Contents/Resources/Documents/packagist_docset/Symfony/Component/Yaml/Exception.html
+```
 Symfony/Component/Yaml/Exception/DumpException.php
 Symfony/Component/Yaml/Exception/ParseException.php
----------------------------------------------------------------------------------------------
+```
 
+- http://man.hubwiz.com/docset/Symfony.docset/Contents/Resources/Documents/packagist_docset/Symfony/Component/Filesystem/Exception.html
+```
 Symfony/Component/Filesystem/Exception/IOException.php
----------------------------------------------------------------------------------------------
+```
 
+- http://man.hubwiz.com/docset/Symfony.docset/Contents/Resources/Documents/packagist_docset/Symfony/Component/HttpFoundation/File/Exception.html
+```
 Symfony/Component/HttpFoundation/File/Exception/AccessDeniedException.php
 Symfony/Component/HttpFoundation/File/Exception/FileNotFoundException.php
 Symfony/Component/HttpFoundation/File/Exception/UnexpectedTypeException.php
 Symfony/Component/HttpFoundation/File/Exception/UploadException.php
 Symfony/Component/HttpFoundation/File/Exception/FileException.php
----------------------------------------------------------------------------------------------
+```
 
+-http://man.hubwiz.com/docset/Symfony.docset/Contents/Resources/Documents/packagist_docset/Symfony/Component/DependencyInjection/Exception.html
+```
 Symfony/Component/DependencyInjection/Exception/InvalidArgumentException.php
 Symfony/Component/DependencyInjection/Exception/ParameterNotFoundException.php
 Symfony/Component/DependencyInjection/Exception/LogicException.php
@@ -236,12 +254,16 @@ Symfony/Component/DependencyInjection/Exception/InactiveScopeException.php
 Symfony/Component/DependencyInjection/Exception/ParameterCircularReferenceException.php
 Symfony/Component/DependencyInjection/Exception/ScopeCrossingInjectionException.php
 Symfony/Component/DependencyInjection/Exception/ScopeWideningInjectionException.php
----------------------------------------------------------------------------------------------
+```
 
+- http://man.hubwiz.com/docset/Symfony.docset/Contents/Resources/Documents/packagist_docset/Symfony/Component/Config/Exception.html
+```
 Symfony/Component/Config/Exception/FileLoaderImportCircularReferenceException.php
 Symfony/Component/Config/Exception/FileLoaderLoadException.php
----------------------------------------------------------------------------------------------
+```
 
+- http://man.hubwiz.com/docset/Symfony.docset/Contents/Resources/Documents/packagist_docset/Symfony/Component/Config/Definition/Exception.html
+```
 Symfony/Component/Config/Definition/Exception/InvalidConfigurationException.php
 Symfony/Component/Config/Definition/Exception/ForbiddenOverwriteException.php
 Symfony/Component/Config/Definition/Exception/UnsetKeyException.php
@@ -249,15 +271,19 @@ Symfony/Component/Config/Definition/Exception/Exception.php
 Symfony/Component/Config/Definition/Exception/InvalidDefinitionException.php
 Symfony/Component/Config/Definition/Exception/InvalidTypeException.php
 Symfony/Component/Config/Definition/Exception/DuplicateKeyException.php
----------------------------------------------------------------------------------------------
+```
 
+- http://man.hubwiz.com/docset/Symfony.docset/Contents/Resources/Documents/packagist_docset/Symfony/Component/Routing/Exception.html
+```
 Symfony/Component/Routing/Exception/InvalidParameterException.php
 Symfony/Component/Routing/Exception/ResourceNotFoundException.php
 Symfony/Component/Routing/Exception/MissingMandatoryParametersException.php
 Symfony/Component/Routing/Exception/RouteNotFoundException.php
 Symfony/Component/Routing/Exception/MethodNotAllowedException.php
----------------------------------------------------------------------------------------------
+```
 
+- http://man.hubwiz.com/docset/Symfony.docset/Contents/Resources/Documents/packagist_docset/Symfony/Component/Validator/Exception.html
+```
 Symfony/Component/Validator/Exception/MappingException.php
 Symfony/Component/Validator/Exception/MissingOptionsException.php
 Symfony/Component/Validator/Exception/GroupDefinitionException.php
@@ -265,17 +291,22 @@ Symfony/Component/Validator/Exception/ConstraintDefinitionException.php
 Symfony/Component/Validator/Exception/UnexpectedTypeException.php
 Symfony/Component/Validator/Exception/InvalidOptionsException.php
 Symfony/Component/Validator/Exception/ValidatorException.php
----------------------------------------------------------------------------------------------
+```
 
+```
 Symfony/Component/Locale/Exception/MethodArgumentValueNotImplementedException.php
 Symfony/Component/Locale/Exception/MethodArgumentNotImplementedException.php
 Symfony/Component/Locale/Exception/MethodNotImplementedException.php
 Symfony/Component/Locale/Exception/NotImplementedException.php
----------------------------------------------------------------------------------------------
+```
 
+-http://man.hubwiz.com/docset/Symfony.docset/Contents/Resources/Documents/packagist_docset/Symfony/Component/CssSelector/Exception.html
+```
 Symfony/Component/CssSelector/Exception/ParseException.php
----------------------------------------------------------------------------------------------
+```
 
+- http://man.hubwiz.com/docset/Symfony.docset/Contents/Resources/Documents/packagist_docset/Symfony/Component/Security/Core/Exception.html
+```
 Symfony/Component/Security/Core/Exception/SessionUnavailableException.php
 Symfony/Component/Security/Core/Exception/AuthenticationException.php
 Symfony/Component/Security/Core/Exception/UnsupportedUserException.php
@@ -296,8 +327,8 @@ Symfony/Component/Security/Core/Exception/NonceExpiredException.php
 Symfony/Component/Security/Core/Exception/AccountStatusException.php
 Symfony/Component/Security/Core/Exception/ProviderNotFoundException.php
 Symfony/Component/Security/Core/Exception/BadCredentialsException.php
----------------------------------------------------------------------------------------------
-
+```
+```
 Symfony/Component/Security/Acl/Exception/SidNotLoadedException.php
 Symfony/Component/Security/Acl/Exception/AclNotFoundException.php
 Symfony/Component/Security/Acl/Exception/NotAllAclsFoundException.php
@@ -306,8 +337,10 @@ Symfony/Component/Security/Acl/Exception/NoAceFoundException.php
 Symfony/Component/Security/Acl/Exception/Exception.php
 Symfony/Component/Security/Acl/Exception/ConcurrentModificationException.php
 Symfony/Component/Security/Acl/Exception/AclAlreadyExistsException.php
----------------------------------------------------------------------------------------------
+```
+- Doctrine
 
+```
 Doctrine/Common/DataFixtures/Exception/CircularReferenceException.php
 Doctrine/Common/Annotations/AnnotationException.php
 Doctrine/Common/CommonException.php
